@@ -1,12 +1,28 @@
-/* Portrait */
-@media screen and (device-width: 320px) and (device-height: 640px) and (-webkit-device-pixel-ratio: 2) and (orientation: portrait) {
-  .containers {
+@media screen and (max-width: 500px) {
+  .content {
     margin: 0 auto;
-    max-width: 300px; } }
-/* Landscape */
-@media screen and (device-width: 320px) and (device-height: 640px) and (-webkit-device-pixel-ratio: 2) and (orientation: landscape) {
-  .containers {
+    max-width: 300px; }
+
+  .desctiption-conainer {
+    margin-left: 0; }
+
+  .catalog img {
+    margin-left: 0; }
+
+  .flex-container {
+    padding-bottom: 25px; } }
+@media screen and (max-width: 979px) {
+  .content {
     margin: 0 auto;
-    max-width: 600px; } }
+    max-width: 600px; }
+
+  .desctiption-conainer {
+    margin-left: 0; }
+
+  .catalog img {
+    margin-left: 0; }
+
+  .flex-container {
+    padding-bottom: 25px; } }
 
 /*# sourceMappingURL=media.css.map */
