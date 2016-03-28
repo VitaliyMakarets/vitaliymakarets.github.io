@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+  </head>
+  <style media="screen">
+    .b {
+      border: 1px solid black;
+      min-height: 100px;
+      margin: 10px;
+    }
+    .time {
+      float: right;
+      color: lightgray;
+    }
+    .nickname {
+      color: darkblue;
+      font-weight: bold;
+    }
+  </style>
+  <body>
+    <input type="text" id="nickname" value="John Doe">
+    <br>
+    <textarea id="message" rows="8" cols="40">Sup dawg?
+    </textarea>
+    <br>
+    <button type="button" id="button1">Send</button>
+    <div class="b" id="block1">
+      Number of received message <span id="numMessages">0</span>
+    </div>
+    <div class="b" id="block2">
+      Last received message from: <span id="senderName">name</span>
+      <br>
+      Message text: <span id="messageText">empty</span>
+    </div>
+    <div class="b" id="log">
+
+    </div>
+    <script type="text/javascript" src="app.js"></script>
+  </body>
+</html>
